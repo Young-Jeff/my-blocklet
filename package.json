@@ -13,8 +13,8 @@
     "db:push": "prisma db push",
     "blocklet:dev": "blocklet dev",
     "blocklet:bundle": "npm run build && blocklet bundle --create-release",
-    "blocklet:deploy": "npm run blocklet:bundle && blocklet deploy",
-    "blocklet:upload": "npm run blocklet:bundle && blocklet upload"
+    "blocklet:deploy": "npm run blocklet:bundle && blocklet deploy .blocklet/bundle --app-id did:abt:zNKiW1ouTptnnBVM9rHZvkNnkoscDvnGgVyb",
+    "blocklet:upload": "npm run blocklet:bundle && blocklet upload .blocklet/release/blocklet.json"
   },
   "dependencies": {
     "@hookform/resolvers": "^3.4.2",
