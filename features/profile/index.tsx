@@ -38,7 +38,7 @@ export const ProfilePage = () => {
       form.setValue("name", profile.name as string);
 
       form.setValue("email", profile.email as string);
-      form.setValue("phone", profile.phone);
+      form.setValue("phone", profile.phone as string);
       form.setValue("id", profile.id);
       form.clearErrors();
       setName(profile.name as string);

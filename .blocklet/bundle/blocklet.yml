@@ -1,0 +1,43 @@
+name: z2qaDXV4ViTgUtTC2ZFd9ppfx7podekyKp1ro
+description: Blocklet Project
+group: dapp
+main: .
+author:
+  name: yangjf
+specVersion: 1.2.8
+version: 1.0.0
+title: my-blocklet
+files:
+  - blocklet.md
+  - screenshots
+interfaces:
+  - type: web
+    name: publicUrl
+    path: /
+    prefix: '*'
+    port: BLOCKLET_PORT
+    protocol: http
+did: z2qaDXV4ViTgUtTC2ZFd9ppfx7podekyKp1ro
+scripts:
+  dev: npm run start
+logo: logo.png
+community: ''
+documentation: ''
+homepage: ''
+license: ''
+payment:
+  price: []
+  share: []
+timeout:
+  start: 60
+requirements:
+  server: '>=1.7.0'
+  os: '*'
+  cpu: '*'
+  nodejs: '*'
+environments: []
+capabilities:
+  navigation: true
+screenshots: []
+components: []
+gitHash: c12ca44e51fbb81b674c237bcc9dad03b3d9a26d
